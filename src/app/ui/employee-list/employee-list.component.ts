@@ -8,8 +8,10 @@ import { EmployeeModel } from '../../model/employee.model';
   templateUrl: './employee-list.component.html',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
+
 })
 export class EmployeeListComponent {
   constructor(private _httpClient: HttpClient) {}
   data$: Observable<EmployeeModel[] | null> = this._httpClient.get<EmployeeModel[]>('assets/data/employees.json');
+  title: string='Tekst, który pojawi się w HTML';
 }

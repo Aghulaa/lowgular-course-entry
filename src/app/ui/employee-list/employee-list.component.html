@@ -1,5 +1,6 @@
 
 <h1 class="header">Employee list</h1>
+<h2>{{title}}</h2>
 <ul class="data" *ngIf="data$ | async as data; else empty">
   <li *ngFor="let employee of data">{{ employee.id }}:
     {{ employee.name }}. Email: {{employee.email}}</li>
