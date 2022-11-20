@@ -1,0 +1,168 @@
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 419
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "LecAVWVLRd",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 419
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
