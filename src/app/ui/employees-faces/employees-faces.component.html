@@ -1,0 +1,5 @@
+<!--<h1>Faces</h1>-->
+<div class="imagesContainer" *ngFor="let employee of data$ | async">
+  <img class="images" [src]="employee.image" alt="pictures of employees">
+</div>
+

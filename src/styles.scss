@@ -10,3 +10,12 @@ body{
 .data{
   font-size: 20px;
 }
+.imagesContainer{
+  display: inline-flex;
+  /* or method from lowgular-course-entry below*/
+  //display: inline-block;
+}
+.images{
+  width: 250px;
+  margin: 5px;
+}
