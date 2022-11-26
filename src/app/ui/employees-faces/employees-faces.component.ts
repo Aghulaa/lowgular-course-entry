@@ -2,7 +2,8 @@ import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/
 //import { HttpClient } from '@angular/common/http'; <- this library is useless after change constructor
 import { Observable } from 'rxjs';
 import { EmployeeService } from '../../services/employee.service';
-import { EmployeeModel } from '../../model/employee.model';
+//import { EmployeeModel } from '../../model/employee.model'; useless library after change Model
+import {PersonModel} from "../../model/person.model";
 
 @Component({
   selector: 'app-employees-faces',
@@ -12,5 +13,5 @@ import { EmployeeModel } from '../../model/employee.model';
 })
 export class EmployeesFacesComponent {
   constructor(private _employeeService: EmployeeService) { }
-  data$: Observable<EmployeeModel[] | null> = this._employeeService.getAll();
+  data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
 }
