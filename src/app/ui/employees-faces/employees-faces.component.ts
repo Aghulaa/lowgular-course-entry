@@ -12,6 +12,4 @@ import {PersonModel} from "../../model/person.model";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class EmployeesFacesComponent {
-  constructor(private _employeeService: EmployeeService) { }
-  data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
 }

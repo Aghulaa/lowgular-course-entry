@@ -11,21 +11,3 @@ body{
 .data{
   font-size: 20px;
 }
-.imagesContainer{
-  //display: inline-flex;
-  /* or method from lowgular-course-entry below*/
-  display: inline-block;
-}
-
-.images{
-  width: 250px;
-  margin: 10px;
-  box-shadow: 5px 5px 15px midnightblue;
-}
-.names{
-  display: flex;
-  justify-content: center;
-}
-.button{
-  margin-left: 10px;
-}
