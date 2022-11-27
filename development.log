@@ -12005,3 +12005,1163 @@
 	"level": "info",
 	"message": "[API] Response ok: injectable/inject-external"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1013
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "Ele4hZmyVq",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1013
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "Ele4hZmyVq",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "Ele4hZmyVq",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1013
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "dJHhXFjZwG",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1013
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAll()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAll"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAll"
+								]
+							}
+						]
+					},
+					{
+						"label": "create()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"create"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"create"
+								]
+							}
+						]
+					},
+					{
+						"label": "delete()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"delete"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for rxjs/methods/statement/flow: {
+	"action": "rxjs/methods/statement/flow",
+	"params": {
+		"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+		"label": "Create Statement",
+		"callPath": [
+			"delete"
+		]
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "dJHhXFjZwG",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/methods/statement/flow"
+}
+[info] [CLI] Calling Query rxjs/methods/statement/flow: {
+	"funcParams": {
+		"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+		"label": "Create Statement",
+		"callPath": [
+			"delete"
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/methods/statement/flow"
+}
+[info] [CLI] Called Query rxjs/methods/statement/flow: {
+	"result": {
+		"context": {
+			"callPath": {
+				"value": [
+					"delete"
+				]
+			}
+		},
+		"steps": [
+			{
+				"contextId": "dependency",
+				"title": "Which dependency to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "EmployeeService",
+						"path": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts"
+					},
+					{
+						"name": "HttpClient",
+						"path": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			},
+			{
+				"contextId": "observable",
+				"title": "Which observable to use?",
+				"type": "multi-option",
+				"options": {
+					"EmployeeService": [
+						{
+							"name": "getAll()",
+							"callPath": [
+								"getAll"
+							]
+						},
+						{
+							"name": "create()",
+							"callPath": [
+								"create"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						}
+					],
+					"HttpClient": [
+						{
+							"name": "request()",
+							"callPath": [
+								"request"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						},
+						{
+							"name": "get()",
+							"callPath": [
+								"get"
+							]
+						},
+						{
+							"name": "head()",
+							"callPath": [
+								"head"
+							]
+						},
+						{
+							"name": "jsonp()",
+							"callPath": [
+								"jsonp"
+							]
+						},
+						{
+							"name": "options()",
+							"callPath": [
+								"options"
+							]
+						},
+						{
+							"name": "patch()",
+							"callPath": [
+								"patch"
+							]
+						},
+						{
+							"name": "post()",
+							"callPath": [
+								"post"
+							]
+						},
+						{
+							"name": "put()",
+							"callPath": [
+								"put"
+							]
+						}
+					]
+				},
+				"extraOptions": [],
+				"param": "dependency.name",
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/methods/statement/create",
+				"payload": {
+					"callPath": "callPath.value",
+					"dependencyCallPath": "observable.callPath",
+					"dependencyType": "dependency.name",
+					"dependencyPath": "dependency.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/methods/statement/flow"
+}
+[info] [API] Response ok: rxjs/methods/statement/flow: {
+	"result": {
+		"context": {
+			"callPath": {
+				"value": [
+					"delete"
+				]
+			}
+		},
+		"steps": [
+			{
+				"contextId": "dependency",
+				"title": "Which dependency to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "EmployeeService",
+						"path": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts"
+					},
+					{
+						"name": "HttpClient",
+						"path": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			},
+			{
+				"contextId": "observable",
+				"title": "Which observable to use?",
+				"type": "multi-option",
+				"options": {
+					"EmployeeService": [
+						{
+							"name": "getAll()",
+							"callPath": [
+								"getAll"
+							]
+						},
+						{
+							"name": "create()",
+							"callPath": [
+								"create"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						}
+					],
+					"HttpClient": [
+						{
+							"name": "request()",
+							"callPath": [
+								"request"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						},
+						{
+							"name": "get()",
+							"callPath": [
+								"get"
+							]
+						},
+						{
+							"name": "head()",
+							"callPath": [
+								"head"
+							]
+						},
+						{
+							"name": "jsonp()",
+							"callPath": [
+								"jsonp"
+							]
+						},
+						{
+							"name": "options()",
+							"callPath": [
+								"options"
+							]
+						},
+						{
+							"name": "patch()",
+							"callPath": [
+								"patch"
+							]
+						},
+						{
+							"name": "post()",
+							"callPath": [
+								"post"
+							]
+						},
+						{
+							"name": "put()",
+							"callPath": [
+								"put"
+							]
+						}
+					]
+				},
+				"extraOptions": [],
+				"param": "dependency.name",
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/methods/statement/create",
+				"payload": {
+					"callPath": "callPath.value",
+					"dependencyCallPath": "observable.callPath",
+					"dependencyType": "dependency.name",
+					"dependencyPath": "dependency.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/methods/statement/flow"
+}
+[info] [API] Request for rxjs/methods/statement/create: {
+	"action": "rxjs/methods/statement/create",
+	"params": {
+		"callPath": [
+			"delete"
+		],
+		"dependencyCallPath": [
+			"delete"
+		],
+		"dependencyType": "HttpClient",
+		"dependencyPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "dJHhXFjZwG",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/methods/statement/create"
+}
+[info] [CLI] Calling Command rxjs/methods/statement/create: {
+	"funcParams": {
+		"callPath": [
+			"delete"
+		],
+		"dependencyCallPath": [
+			"delete"
+		],
+		"dependencyType": "HttpClient",
+		"dependencyPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/methods/statement/create"
+}
+[info] [CommandBus]: Dispatching command AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"callPath": [
+			"delete"
+		],
+		"dependencyFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"dependencyCallPath": [
+			"delete"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddCallCommand"
+}
+[info] [CommandBus]: Handled  AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts",
+		"callPath": [
+			"delete"
+		],
+		"dependencyFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"dependencyCallPath": [
+			"delete"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddCallCommand"
+}
+[info] [CLI] Called Command rxjs/methods/statement/create: {
+	"message": "[CLI] Called Command rxjs/methods/statement/create",
+	"level": "info"
+}
+[info] [API] Response ok: rxjs/methods/statement/create: {
+	"result": {
+		"filePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/methods/statement/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 1018
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "RdDRfqN5Nc",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 1018
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentMethod": "remove"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "remove()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"remove"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "R-HoqOzy93",
+			"correlationId": "RdDRfqN5Nc",
+			"clickedPath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "C:/Users/agnie/WebstormProjects/untitled/lowgular-course-entry/src/app/services/project.service.ts",
+			"name": "ProjectService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}

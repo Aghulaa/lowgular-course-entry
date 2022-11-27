@@ -15,8 +15,12 @@ import {PersonModel} from "../../model/person.model";
 })
 export class EmployeeListComponent {
   constructor(private _employeeService: EmployeeService) { }
-  data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
+//  data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
+    data$ = this._employeeService.getAll();
 
   // data = [{name: 'Agnieszka'},{name: 'Monika'}];
   //title: string='Tekst, który pojawi się w HTML';
+  remove(id: string){
+    this._employeeService.delete(id).subscribe();
+  }
 }
