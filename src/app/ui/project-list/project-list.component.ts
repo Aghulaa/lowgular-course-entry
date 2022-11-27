@@ -1,4 +1,8 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
+import {Observable} from "rxjs";
+//import {PersonModel} from "../../model/person.model";
+import {ProjectModel} from "../../model/project.model";
+import { ProjectService } from '../../services/project.service';
 
 @Component({
   selector: 'app-project-list',
@@ -7,4 +11,6 @@ import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ProjectListComponent {
+  constructor(private _projectService: ProjectService) {}
+  data$: Observable<ProjectModel[] | null> = this._projectService.getAll();
 }

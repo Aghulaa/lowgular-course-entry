@@ -1,8 +1,6 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-//import { HttpClient } from '@angular/common/http'; <- this library is useless after change constructor
 import { Observable } from 'rxjs';
 import { EmployeeService } from '../../services/employee.service';
-//import { EmployeeModel } from '../../model/employee.model'; useless library after change Model
 import {PersonModel} from "../../model/person.model";
 
 @Component({
@@ -12,4 +10,6 @@ import {PersonModel} from "../../model/person.model";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class EmployeesFacesComponent {
+  constructor(private _employeeService: EmployeeService) { }
+  data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
 }
